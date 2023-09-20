@@ -3,16 +3,23 @@
 * {
     border: 1px solid black;
     padding: 4px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 
+body {
+    padding: 0px;
+    margin: 0px;
+}
 
 /* header style start */
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 10px 100px;
-    background-color: #a4bcdc;
+    align-items: baseline;
+    padding: 10px 100px 50px 100px;
+    background-color: #1F2937;
     color: white;
 }
 
@@ -27,6 +34,7 @@
     display: flex;
     gap: 20px;
     font-size: 18px;
+    color: #E5E7EB;
 
 }
 
@@ -42,13 +50,57 @@ a {
 
 
 
-/* part 1 style start */
+/* section 1 style start here */
+
+.section-one {
+    display: flex;
+    justify-content: center;
+    padding: 30px 100px 80px 100px;
+    background-color: #1F2937;
+    color: white;
+    gap: 50px;
+}
+
+.title-container-one {
+    font-size: 48px;
+    font-weight: 700;
+    color: #F9FAF8;
+}
+
+.text-container-one {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+
+.image-container-one {
+    border: 2px solid white;
+    flex: 0 1 auto;
+    height: auto;
+    width: 1100px;
+    /* flex-shrink: 0; */
+}
+
+.button-container-one {
+    /* border: 2px solid white; */
+    background-color: #3882F6;
+    border-radius: 10px;
+    margin: 10px 0px 0px 0px;
+    padding: 5px 10px;
+    width: 90px;
+    text-align: center;
+}
+
+/* section 1 style end here */
+
+
+/* footer */
 
 .footer {
     display: flex;
     justify-content: center;
     padding: 20px;
-    background-color: #a4bcdc;
+    background-color: #1F2937;
     color: white;
 }
 
