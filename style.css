@@ -61,6 +61,12 @@ a {
     font-size: 48px;
     font-weight: 700;
     color: #F9FAF8;
+    padding-bottom: 10px;
+}
+
+h1, h2, h3 {
+    padding: 0px; 
+    margin: 0px;
 }
 
 .text-container-one {
@@ -71,24 +77,34 @@ a {
 
 .image-container-one {
     /* border: 2px solid white; */
-    flex: 0 1 auto;
-    height: auto;
-    width: 1100px;
+    flex: 0 0 50%;
+    /* height: auto; */
+    width: 400px;
     background-color: #c0c1c3;
     display: flex;
     justify-content: center;
+    align-self: stretch;
     align-items: center;
     /* flex-shrink: 0; */
 }
+
+/* img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
 
 .button-container-one {
     /* border: 2px solid white; */
     background-color: #3882F6;
     border-radius: 10px;
     margin: 10px 0px 0px 0px;
-    padding: 5px 10px;
-    width: 90px;
+    padding: 5px 20px;
+    /* width: 90px; */
     text-align: center;
+    color: white;
+    border-color: #3882F6;
+    cursor: pointer;
 }
 /* section 1 style ends here */
 
@@ -107,18 +123,20 @@ a {
     font-weight: 700;
 }
 
+
  .image-and-text {
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
     align-items: center;
     text-align: center;
+    margin: 20px;
 }
 
 
 .text {
     width: 150px;
-    padding-top: 10px;
+    /* padding-top: 10px; */
     /* display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -128,8 +146,9 @@ a {
 
 .images-and-text-container-two {
     display: flex;
-    justify-content: center;
-    gap: 50px;
+    justify-content: space-evenly;
+    /* gap: 50px; */
+    flex-wrap: wrap;
 }
 
 .card {
@@ -151,7 +170,7 @@ a {
 .quote {
     font-size: 36px;
     font-weight: 100;
-    font-style: italic;
+    /* font-style: italic; */
     color: #1F2937;
 }
 
@@ -184,13 +203,23 @@ a {
     border-radius: 10px;
 }
 
+.title-container-four {
+    padding-bottom: 5px;
+}
+
 .button-container-four {
     border: 2px solid white;
+    background-color: #3882F6;
+    color: white;
     border-radius: 10px;
     margin: 20px 0px 20px 0px;
-    padding: 5px 10px;
-    width: 90px;
+    padding: 5px 20px;
+    width: 100px;
     text-align: center;
+    display: flex;
+    flex-shrink: 0;
+    justify-content: center;
+    cursor: pointer;
 }
 /* section 4 style ends here */
 
