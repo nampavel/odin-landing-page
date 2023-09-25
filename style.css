@@ -178,8 +178,26 @@ h1, h2, h3 {
 .card {
     width: 150px;
     height: 150px;
-    border: 3px solid #3882F6;
+    border: 3px solid #87b1f3;
     border-radius: 10px;
+}
+
+.card-one {
+    background-color: #b3c5e1;
+}
+
+.card-two {
+    background-color: #92a7c9;
+}
+
+
+.card-three {
+    background-color: #677a99;
+}
+
+
+.card-four {
+    background-color: #495569;
 }
 /* section 2 style ends here */
 
