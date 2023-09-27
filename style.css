@@ -34,9 +34,11 @@ body {
 
 .header-logo {
     font-size: 24px;
-    padding: 0px;
+    padding: 10px;
     font-weight: 700;
     color: #F9FAF8;
+    border: 1px solid white;
+    border-radius: 5px;
 }
 
 .header-links {
@@ -94,16 +96,34 @@ h1, h2, h3 {
 
 .image-container-one {
     /* border: 2px solid white; */
-    flex: 0 0 50%;
+    flex: 1 1 0;
     /* height: auto; */
-    width: 300px;
+    height: auto;
+    max-width: 500px;
     background-color: #c0c1c3;
     display: flex;
     justify-content: center;
-    align-self: stretch;
+    /* align-self: stretch; */
     align-items: center;
+    border-radius: 3%;
+    /* border: 2px solid black; */
     /* flex-shrink: 0; */
 }
+
+.caption {
+    padding-top: 10px;
+    display: flex;
+    font-size: 15px;
+}
+
+.photo-credit {
+    display:flex;
+    padding-top: 5px;
+    color: #dad8d8;
+    font-size: 14px;
+    font-style: italic;
+    /* font-family: 'Verdana'; */
+  }
 
 /* img {
     display: flex;
@@ -178,7 +198,7 @@ h1, h2, h3 {
 .card {
     width: 150px;
     height: 150px;
-    border: 3px solid #87b1f3;
+    border: 1px solid white;
     border-radius: 10px;
 }
 
@@ -249,7 +269,7 @@ h1, h2, h3 {
     justify-content: center;
     align-items: center;
     gap: 100px;
-    background-color: #3882F6;
+    background-color: #4c5d7b;
     border-radius: 10px;
     max-width: 700px;
     /* flex-grow: 1; */
